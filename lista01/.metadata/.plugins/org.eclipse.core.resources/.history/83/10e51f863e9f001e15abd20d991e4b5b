@@ -1,0 +1,17 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		float raio,area,pi;
+		Scanner sc = new Scanner(System.in);
+		raio = sc.nextFloat();
+		pi = 3.14159f;
+		area = pi*raio*raio;
+		System.out.printf("A = .4f",area);
+		sc.close();
+	}
+
+}

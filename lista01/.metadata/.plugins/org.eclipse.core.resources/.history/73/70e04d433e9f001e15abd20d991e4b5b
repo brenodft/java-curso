@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		float raio,area;
+		Scanner sc = new Scanner(System.in);
+		raio = sc.nextFloat();
+		area = 3.14159*raio*raio;
+		sc.close();
+	}
+
+}
